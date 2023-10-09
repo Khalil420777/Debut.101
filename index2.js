@@ -1,0 +1,63 @@
+function returnAnswer(){
+    var wcAnswer = document.querySelector('input[name="wc"]:checked');
+    if(wcAnswer.value==="uruguay"){
+       document.getElementById("wcanswer").textContent="goaallllllll good shot";
+    }
+    else{
+        document.getElementById("wcanswer").textContent="nope you missed";
+    }
+
+
+
+    var uclAnswer = document.querySelector('input[name="ucl"]:checked');
+    if(uclAnswer.value==="5"){
+       document.getElementById("uclanswer").textContent="goaallllllll good shot";
+    }
+    else{
+        
+        document.getElementById("uclanswer").textContent="nope you missed";
+    }
+
+
+    var dorAnswer = document.querySelector('input[name="dor"]:checked');
+    if(dorAnswer.value==="ronaldinho"){
+       document.getElementById("doranswer").textContent="goaallllllll good shot";
+    }
+    else{
+        document.getElementById("doranswer").textContent="nope you missed";
+    }
+
+
+    var plyrAnswer = document.querySelector('input[name="plyr"]:checked');
+    if(plyrAnswer.value==="lionel messi"){
+       document.getElementById("plyranswer").textContent="goaallllllll good shot";
+    }
+    else{
+        document.getElementById("plyranswer").textContent="nope you missed";
+    }
+
+
+    var yearAnswer = document.querySelector('input[name="year"]:checked');
+    if(yearAnswer.value==="2004"){
+       document.getElementById("yearanswer").textContent="goaallllllll good shot";
+    }
+    else{
+        document.getElementById("yearanswer").textContent="nope you missed";
+    }
+
+
+}
+
+
+
+
+            
+            
+            
+           
+       
+
+            
+    
+            
+        
