@@ -37,7 +37,27 @@ font-size: larger;
     text-align: left;
 
 }
+#wcanswer{
+    color: red;
+    size: 100px;
+}
+#uclanswer{
+    color: red;
+    size: 100px;
+}
 
+#doranswer{
+    color: red;
+    size: 100px;
+}
+#plyranswer{
+    color: red;
+    size: 100px;
+}
+#yearanswer{
+    color: red;
+    size: 100px;
+}
 
 
 
